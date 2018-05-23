@@ -1,0 +1,48 @@
+
+.simon{
+  border: solid 2px black;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  text-align: center;
+  width:500px;
+  height:500px;
+  margin-left: -273px;
+  margin-top: -132px;
+  transform:rotate(45deg);
+  border-radius: 100px;
+}
+
+.simon div{
+  border: solid 2px black;
+  width:240px;
+  height:240px;
+  display: inline-block;
+  margin: 1px;
+}
+
+.simon div:active{
+  -o-box-shadow: 2px 2px 19px #000000;
+  -webkit-box-shadow: 2px 2px 19px #000000;
+  -moz-box-shadow: 2px 2px 19px #000000;
+}
+
+.head-button{
+  background-color: red;
+  border-radius: 100px 0 0 0 ;
+}
+
+.rigth-button{
+  background-color: blue;
+  border-radius: 0 100px 0 0 ;
+}
+
+.footer-button{
+  background-color: yellow;
+  border-radius: 0 0 100px 0 ;
+}
+
+.left-button{
+  background-color: green;
+  border-radius: 0 0 0 100px;
+}
