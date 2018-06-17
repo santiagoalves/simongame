@@ -21,7 +21,7 @@
   margin: 1px;
 }
 
-.simon div:active{
+.activated{
   -o-box-shadow: 2px 2px 19px #000000;
   -webkit-box-shadow: 2px 2px 19px #000000;
   -moz-box-shadow: 2px 2px 19px #000000;
