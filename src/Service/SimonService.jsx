@@ -25,7 +25,6 @@ export default class SimonService {
 
     static init(buttons) {
         _this.buttons = buttons;
-        console.log(_this.buttonsPlayed);
     }
 
     static start() {
@@ -42,7 +41,6 @@ export default class SimonService {
                 SimonService.afterRepeatPlayedButtons()
             }
         }
-        // callback();
         intervalCode = window.setInterval(callback, 1000);
     }
 

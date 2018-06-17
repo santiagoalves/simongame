@@ -10,10 +10,10 @@ class App extends Component {
         super();
         this.state = {
             currentSimonMode: simonModes.waitStart,
-            disabled: false,
-            note: '',
-            duration: ''
+            disabled: false
         }
+
+        console.log(this.state.aaaa)
         this.synth = new Tone.Synth().toMaster()
         buttons.forEach(button => this[button] = React.createRef())
     }
@@ -36,6 +36,7 @@ class App extends Component {
             }
 
             SimonService.afterPlayerSuccessfullyRepeat = () => {
+                debugger
                 this.setState(playingMode, SimonService.start)
             }
 
